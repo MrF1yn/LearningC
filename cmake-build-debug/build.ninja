@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = H$:/LearningC/cmake-build-debug/
+cmake_ninja_workdir = /home/dibyajyotidey/CLionProjects/LearningC/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target LearningC
 
@@ -49,11 +49,11 @@ cmake_ninja_workdir = H$:/LearningC/cmake-build-debug/
 
 build cmake_object_order_depends_target_LearningC: phony || CMakeFiles/LearningC.dir
 
-build CMakeFiles/LearningC.dir/pyramid.c.obj: C_COMPILER__LearningC_Debug H$:/LearningC/pyramid.c || cmake_object_order_depends_target_LearningC
-  DEP_FILE = CMakeFiles\LearningC.dir\pyramid.c.obj.d
+build CMakeFiles/LearningC.dir/pyramid.c.o: C_COMPILER__LearningC_Debug /home/dibyajyotidey/CLionProjects/LearningC/pyramid.c || cmake_object_order_depends_target_LearningC
+  DEP_FILE = CMakeFiles/LearningC.dir/pyramid.c.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\LearningC.dir
-  OBJECT_FILE_DIR = CMakeFiles\LearningC.dir
+  OBJECT_DIR = CMakeFiles/LearningC.dir
+  OBJECT_FILE_DIR = CMakeFiles/LearningC.dir
 
 
 # =============================================================================
@@ -61,17 +61,15 @@ build CMakeFiles/LearningC.dir/pyramid.c.obj: C_COMPILER__LearningC_Debug H$:/Le
 
 
 #############################################
-# Link the executable LearningC.exe
+# Link the executable LearningC
 
-build LearningC.exe: C_EXECUTABLE_LINKER__LearningC_Debug CMakeFiles/LearningC.dir/pyramid.c.obj
+build LearningC: C_EXECUTABLE_LINKER__LearningC_Debug CMakeFiles/LearningC.dir/pyramid.c.o
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\LearningC.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = LearningC.exe
-  TARGET_IMPLIB = libLearningC.dll.a
-  TARGET_PDB = LearningC.exe.dbg
+  OBJECT_DIR = CMakeFiles/LearningC.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = LearningC
+  TARGET_PDB = LearningC.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target addition
@@ -82,11 +80,11 @@ build LearningC.exe: C_EXECUTABLE_LINKER__LearningC_Debug CMakeFiles/LearningC.d
 
 build cmake_object_order_depends_target_addition: phony || CMakeFiles/addition.dir
 
-build CMakeFiles/addition.dir/4.1.c.obj: C_COMPILER__addition_Debug H$:/LearningC/4.1.c || cmake_object_order_depends_target_addition
-  DEP_FILE = CMakeFiles\addition.dir\4.1.c.obj.d
+build CMakeFiles/addition.dir/addition-3.1.c.o: C_COMPILER__addition_Debug /home/dibyajyotidey/CLionProjects/LearningC/addition-3.1.c || cmake_object_order_depends_target_addition
+  DEP_FILE = CMakeFiles/addition.dir/addition-3.1.c.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\addition.dir
-  OBJECT_FILE_DIR = CMakeFiles\addition.dir
+  OBJECT_DIR = CMakeFiles/addition.dir
+  OBJECT_FILE_DIR = CMakeFiles/addition.dir
 
 
 # =============================================================================
@@ -94,17 +92,15 @@ build CMakeFiles/addition.dir/4.1.c.obj: C_COMPILER__addition_Debug H$:/Learning
 
 
 #############################################
-# Link the executable addition.exe
+# Link the executable addition
 
-build addition.exe: C_EXECUTABLE_LINKER__addition_Debug CMakeFiles/addition.dir/4.1.c.obj
+build addition: C_EXECUTABLE_LINKER__addition_Debug CMakeFiles/addition.dir/addition-3.1.c.o
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\addition.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = addition.exe
-  TARGET_IMPLIB = libaddition.dll.a
-  TARGET_PDB = addition.exe.dbg
+  OBJECT_DIR = CMakeFiles/addition.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = addition
+  TARGET_PDB = addition.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target arrayaddition
@@ -115,11 +111,11 @@ build addition.exe: C_EXECUTABLE_LINKER__addition_Debug CMakeFiles/addition.dir/
 
 build cmake_object_order_depends_target_arrayaddition: phony || CMakeFiles/arrayaddition.dir
 
-build CMakeFiles/arrayaddition.dir/arrayaddition.c.obj: C_COMPILER__arrayaddition_Debug H$:/LearningC/arrayaddition.c || cmake_object_order_depends_target_arrayaddition
-  DEP_FILE = CMakeFiles\arrayaddition.dir\arrayaddition.c.obj.d
+build CMakeFiles/arrayaddition.dir/arrayaddition.c.o: C_COMPILER__arrayaddition_Debug /home/dibyajyotidey/CLionProjects/LearningC/arrayaddition.c || cmake_object_order_depends_target_arrayaddition
+  DEP_FILE = CMakeFiles/arrayaddition.dir/arrayaddition.c.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\arrayaddition.dir
-  OBJECT_FILE_DIR = CMakeFiles\arrayaddition.dir
+  OBJECT_DIR = CMakeFiles/arrayaddition.dir
+  OBJECT_FILE_DIR = CMakeFiles/arrayaddition.dir
 
 
 # =============================================================================
@@ -127,17 +123,15 @@ build CMakeFiles/arrayaddition.dir/arrayaddition.c.obj: C_COMPILER__arrayadditio
 
 
 #############################################
-# Link the executable arrayaddition.exe
+# Link the executable arrayaddition
 
-build arrayaddition.exe: C_EXECUTABLE_LINKER__arrayaddition_Debug CMakeFiles/arrayaddition.dir/arrayaddition.c.obj
+build arrayaddition: C_EXECUTABLE_LINKER__arrayaddition_Debug CMakeFiles/arrayaddition.dir/arrayaddition.c.o
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\arrayaddition.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = arrayaddition.exe
-  TARGET_IMPLIB = libarrayaddition.dll.a
-  TARGET_PDB = arrayaddition.exe.dbg
+  OBJECT_DIR = CMakeFiles/arrayaddition.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = arrayaddition
+  TARGET_PDB = arrayaddition.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target avg-3.2
@@ -148,11 +142,11 @@ build arrayaddition.exe: C_EXECUTABLE_LINKER__arrayaddition_Debug CMakeFiles/arr
 
 build cmake_object_order_depends_target_avg-3.2: phony || CMakeFiles/avg-3.2.dir
 
-build CMakeFiles/avg-3.2.dir/4.2.c.obj: C_COMPILER__avg-3.2e2_Debug H$:/LearningC/4.2.c || cmake_object_order_depends_target_avg-3.2
-  DEP_FILE = CMakeFiles\avg-3.2.dir\4.2.c.obj.d
+build CMakeFiles/avg-3.2.dir/avg-3.2.c.o: C_COMPILER__avg-3.2e2_Debug /home/dibyajyotidey/CLionProjects/LearningC/avg-3.2.c || cmake_object_order_depends_target_avg-3.2
+  DEP_FILE = CMakeFiles/avg-3.2.dir/avg-3.2.c.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\avg-3.2.dir
-  OBJECT_FILE_DIR = CMakeFiles\avg-3.2.dir
+  OBJECT_DIR = CMakeFiles/avg-3.2.dir
+  OBJECT_FILE_DIR = CMakeFiles/avg-3.2.dir
 
 
 # =============================================================================
@@ -160,17 +154,15 @@ build CMakeFiles/avg-3.2.dir/4.2.c.obj: C_COMPILER__avg-3.2e2_Debug H$:/Learning
 
 
 #############################################
-# Link the executable avg-3.2.exe
+# Link the executable avg-3.2
 
-build avg-3.2.exe: C_EXECUTABLE_LINKER__avg-3.2e2_Debug CMakeFiles/avg-3.2.dir/4.2.c.obj
+build avg-3.2: C_EXECUTABLE_LINKER__avg-3.2e2_Debug CMakeFiles/avg-3.2.dir/avg-3.2.c.o
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\avg-3.2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = avg-3.2.exe
-  TARGET_IMPLIB = libavg-3.2.dll.a
-  TARGET_PDB = avg-3.2.exe.dbg
+  OBJECT_DIR = CMakeFiles/avg-3.2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = avg-3.2
+  TARGET_PDB = avg-3.2.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target randomnumgen
@@ -181,11 +173,11 @@ build avg-3.2.exe: C_EXECUTABLE_LINKER__avg-3.2e2_Debug CMakeFiles/avg-3.2.dir/4
 
 build cmake_object_order_depends_target_randomnumgen: phony || CMakeFiles/randomnumgen.dir
 
-build CMakeFiles/randomnumgen.dir/randomnumgen.c.obj: C_COMPILER__randomnumgen_Debug H$:/LearningC/randomnumgen.c || cmake_object_order_depends_target_randomnumgen
-  DEP_FILE = CMakeFiles\randomnumgen.dir\randomnumgen.c.obj.d
+build CMakeFiles/randomnumgen.dir/randomnumgen.c.o: C_COMPILER__randomnumgen_Debug /home/dibyajyotidey/CLionProjects/LearningC/randomnumgen.c || cmake_object_order_depends_target_randomnumgen
+  DEP_FILE = CMakeFiles/randomnumgen.dir/randomnumgen.c.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\randomnumgen.dir
-  OBJECT_FILE_DIR = CMakeFiles\randomnumgen.dir
+  OBJECT_DIR = CMakeFiles/randomnumgen.dir
+  OBJECT_FILE_DIR = CMakeFiles/randomnumgen.dir
 
 
 # =============================================================================
@@ -193,17 +185,15 @@ build CMakeFiles/randomnumgen.dir/randomnumgen.c.obj: C_COMPILER__randomnumgen_D
 
 
 #############################################
-# Link the executable randomnumgen.exe
+# Link the executable randomnumgen
 
-build randomnumgen.exe: C_EXECUTABLE_LINKER__randomnumgen_Debug CMakeFiles/randomnumgen.dir/randomnumgen.c.obj
+build randomnumgen: C_EXECUTABLE_LINKER__randomnumgen_Debug CMakeFiles/randomnumgen.dir/randomnumgen.c.o
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\randomnumgen.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = randomnumgen.exe
-  TARGET_IMPLIB = librandomnumgen.dll.a
-  TARGET_PDB = randomnumgen.exe.dbg
+  OBJECT_DIR = CMakeFiles/randomnumgen.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = randomnumgen
+  TARGET_PDB = randomnumgen.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 3.3
@@ -214,11 +204,11 @@ build randomnumgen.exe: C_EXECUTABLE_LINKER__randomnumgen_Debug CMakeFiles/rando
 
 build cmake_object_order_depends_target_3.3: phony || CMakeFiles/3.3.dir
 
-build CMakeFiles/3.3.dir/4.3.c.obj: C_COMPILER__3.2e3_Debug H$:/LearningC/4.3.c || cmake_object_order_depends_target_3.3
-  DEP_FILE = CMakeFiles\3.3.dir\4.3.c.obj.d
+build CMakeFiles/3.3.dir/3.3.c.o: C_COMPILER__3.2e3_Debug /home/dibyajyotidey/CLionProjects/LearningC/3.3.c || cmake_object_order_depends_target_3.3
+  DEP_FILE = CMakeFiles/3.3.dir/3.3.c.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\3.3.dir
-  OBJECT_FILE_DIR = CMakeFiles\3.3.dir
+  OBJECT_DIR = CMakeFiles/3.3.dir
+  OBJECT_FILE_DIR = CMakeFiles/3.3.dir
 
 
 # =============================================================================
@@ -226,17 +216,15 @@ build CMakeFiles/3.3.dir/4.3.c.obj: C_COMPILER__3.2e3_Debug H$:/LearningC/4.3.c 
 
 
 #############################################
-# Link the executable 3.3.exe
+# Link the executable 3.3
 
-build 3.3.exe: C_EXECUTABLE_LINKER__3.2e3_Debug CMakeFiles/3.3.dir/4.3.c.obj
+build 3.3: C_EXECUTABLE_LINKER__3.2e3_Debug CMakeFiles/3.3.dir/3.3.c.o
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\3.3.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 3.3.exe
-  TARGET_IMPLIB = lib3.3.dll.a
-  TARGET_PDB = 3.3.exe.dbg
+  OBJECT_DIR = CMakeFiles/3.3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3.3
+  TARGET_PDB = 3.3.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 3.4
@@ -247,11 +235,11 @@ build 3.3.exe: C_EXECUTABLE_LINKER__3.2e3_Debug CMakeFiles/3.3.dir/4.3.c.obj
 
 build cmake_object_order_depends_target_3.4: phony || CMakeFiles/3.4.dir
 
-build CMakeFiles/3.4.dir/4.4.c.obj: C_COMPILER__3.2e4_Debug H$:/LearningC/4.4.c || cmake_object_order_depends_target_3.4
-  DEP_FILE = CMakeFiles\3.4.dir\4.4.c.obj.d
+build CMakeFiles/3.4.dir/3.4.c.o: C_COMPILER__3.2e4_Debug /home/dibyajyotidey/CLionProjects/LearningC/3.4.c || cmake_object_order_depends_target_3.4
+  DEP_FILE = CMakeFiles/3.4.dir/3.4.c.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\3.4.dir
-  OBJECT_FILE_DIR = CMakeFiles\3.4.dir
+  OBJECT_DIR = CMakeFiles/3.4.dir
+  OBJECT_FILE_DIR = CMakeFiles/3.4.dir
 
 
 # =============================================================================
@@ -259,17 +247,15 @@ build CMakeFiles/3.4.dir/4.4.c.obj: C_COMPILER__3.2e4_Debug H$:/LearningC/4.4.c 
 
 
 #############################################
-# Link the executable 3.4.exe
+# Link the executable 3.4
 
-build 3.4.exe: C_EXECUTABLE_LINKER__3.2e4_Debug CMakeFiles/3.4.dir/4.4.c.obj
+build 3.4: C_EXECUTABLE_LINKER__3.2e4_Debug CMakeFiles/3.4.dir/3.4.c.o
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\3.4.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 3.4.exe
-  TARGET_IMPLIB = lib3.4.dll.a
-  TARGET_PDB = 3.4.exe.dbg
+  OBJECT_DIR = CMakeFiles/3.4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3.4
+  TARGET_PDB = 3.4.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 3.5
@@ -280,11 +266,11 @@ build 3.4.exe: C_EXECUTABLE_LINKER__3.2e4_Debug CMakeFiles/3.4.dir/4.4.c.obj
 
 build cmake_object_order_depends_target_3.5: phony || CMakeFiles/3.5.dir
 
-build CMakeFiles/3.5.dir/4.5.c.obj: C_COMPILER__3.2e5_Debug H$:/LearningC/4.5.c || cmake_object_order_depends_target_3.5
-  DEP_FILE = CMakeFiles\3.5.dir\4.5.c.obj.d
+build CMakeFiles/3.5.dir/3.5.c.o: C_COMPILER__3.2e5_Debug /home/dibyajyotidey/CLionProjects/LearningC/3.5.c || cmake_object_order_depends_target_3.5
+  DEP_FILE = CMakeFiles/3.5.dir/3.5.c.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\3.5.dir
-  OBJECT_FILE_DIR = CMakeFiles\3.5.dir
+  OBJECT_DIR = CMakeFiles/3.5.dir
+  OBJECT_FILE_DIR = CMakeFiles/3.5.dir
 
 
 # =============================================================================
@@ -292,17 +278,15 @@ build CMakeFiles/3.5.dir/4.5.c.obj: C_COMPILER__3.2e5_Debug H$:/LearningC/4.5.c 
 
 
 #############################################
-# Link the executable 3.5.exe
+# Link the executable 3.5
 
-build 3.5.exe: C_EXECUTABLE_LINKER__3.2e5_Debug CMakeFiles/3.5.dir/4.5.c.obj
+build 3.5: C_EXECUTABLE_LINKER__3.2e5_Debug CMakeFiles/3.5.dir/3.5.c.o
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\3.5.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 3.5.exe
-  TARGET_IMPLIB = lib3.5.dll.a
-  TARGET_PDB = 3.5.exe.dbg
+  OBJECT_DIR = CMakeFiles/3.5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3.5
+  TARGET_PDB = 3.5.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 3.6
@@ -313,11 +297,11 @@ build 3.5.exe: C_EXECUTABLE_LINKER__3.2e5_Debug CMakeFiles/3.5.dir/4.5.c.obj
 
 build cmake_object_order_depends_target_3.6: phony || CMakeFiles/3.6.dir
 
-build CMakeFiles/3.6.dir/4.6.c.obj: C_COMPILER__3.2e6_Debug H$:/LearningC/4.6.c || cmake_object_order_depends_target_3.6
-  DEP_FILE = CMakeFiles\3.6.dir\4.6.c.obj.d
+build CMakeFiles/3.6.dir/3.6.c.o: C_COMPILER__3.2e6_Debug /home/dibyajyotidey/CLionProjects/LearningC/3.6.c || cmake_object_order_depends_target_3.6
+  DEP_FILE = CMakeFiles/3.6.dir/3.6.c.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\3.6.dir
-  OBJECT_FILE_DIR = CMakeFiles\3.6.dir
+  OBJECT_DIR = CMakeFiles/3.6.dir
+  OBJECT_FILE_DIR = CMakeFiles/3.6.dir
 
 
 # =============================================================================
@@ -325,57 +309,22 @@ build CMakeFiles/3.6.dir/4.6.c.obj: C_COMPILER__3.2e6_Debug H$:/LearningC/4.6.c 
 
 
 #############################################
-# Link the executable 3.6.exe
+# Link the executable 3.6
 
-build 3.6.exe: C_EXECUTABLE_LINKER__3.2e6_Debug CMakeFiles/3.6.dir/4.6.c.obj
+build 3.6: C_EXECUTABLE_LINKER__3.2e6_Debug CMakeFiles/3.6.dir/3.6.c.o
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\3.6.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 3.6.exe
-  TARGET_IMPLIB = lib3.6.dll.a
-  TARGET_PDB = 3.6.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 2.1
-
-
-#############################################
-# Order-only phony target for 2.1
-
-build cmake_object_order_depends_target_2.1: phony || CMakeFiles/2.1.dir
-
-build CMakeFiles/2.1.dir/2.1.c.obj: C_COMPILER__2.2e1_Debug H$:/LearningC/2.1.c || cmake_object_order_depends_target_2.1
-  DEP_FILE = CMakeFiles\2.1.dir\2.1.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\2.1.dir
-  OBJECT_FILE_DIR = CMakeFiles\2.1.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 2.1
-
-
-#############################################
-# Link the executable 2.1.exe
-
-build 2.1.exe: C_EXECUTABLE_LINKER__2.2e1_Debug CMakeFiles/2.1.dir/2.1.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\2.1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 2.1.exe
-  TARGET_IMPLIB = lib2.1.dll.a
-  TARGET_PDB = 2.1.exe.dbg
+  OBJECT_DIR = CMakeFiles/3.6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3.6
+  TARGET_PDB = 3.6.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D H:\LearningC\cmake-build-debug && C:\Users\GT-ACE\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cd /home/dibyajyotidey/CLionProjects/LearningC/cmake-build-debug && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -386,7 +335,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D H:\LearningC\cmake-build-debug && C:\Users\GT-ACE\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SH:\LearningC -BH:\LearningC\cmake-build-debug"
+  COMMAND = cd /home/dibyajyotidey/CLionProjects/LearningC/cmake-build-debug && /app/extra/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/dibyajyotidey/CLionProjects/LearningC -B/home/dibyajyotidey/CLionProjects/LearningC/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -396,35 +345,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 2.1: phony 2.1.exe
-
-build 3.3: phony 3.3.exe
-
-build 3.4: phony 3.4.exe
-
-build 3.5: phony 3.5.exe
-
-build 3.6: phony 3.6.exe
-
-build LearningC: phony LearningC.exe
-
-build addition: phony addition.exe
-
-build arrayaddition: phony arrayaddition.exe
-
-build avg-3.2: phony avg-3.2.exe
-
-build randomnumgen: phony randomnumgen.exe
-
 # =============================================================================
 # Folder targets.
 
 # =============================================================================
 
 #############################################
-# Folder: H:/LearningC/cmake-build-debug
+# Folder: /home/dibyajyotidey/CLionProjects/LearningC/cmake-build-debug
 
-build all: phony LearningC.exe addition.exe arrayaddition.exe avg-3.2.exe randomnumgen.exe 3.3.exe 3.4.exe 3.5.exe 3.6.exe 2.1.exe
+build all: phony LearningC addition arrayaddition avg-3.2 randomnumgen 3.3 3.4 3.5 3.6
 
 # =============================================================================
 # Built-in targets
@@ -433,14 +362,14 @@ build all: phony LearningC.exe addition.exe arrayaddition.exe avg-3.2.exe random
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake H$:/LearningC/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /home/dibyajyotidey/CLionProjects/LearningC/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeRCInformation.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Windows.cmake C$:/Users/GT-ACE/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeRCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake H$:/LearningC/CMakeLists.txt: phony
+build /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /home/dibyajyotidey/CLionProjects/LearningC/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################

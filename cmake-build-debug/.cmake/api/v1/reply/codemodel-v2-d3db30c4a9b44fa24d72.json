@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LearningC",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3.3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3.3-Debug-5b45fea1d77cfd068435.json",
+					"name" : "3.3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3.4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3.4-Debug-0859b0191c2ce8d13d8d.json",
+					"name" : "3.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3.5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3.5-Debug-c483cf4226f699a2c01d.json",
+					"name" : "3.5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3.6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3.6-Debug-db303931e6ad8a3b4f51.json",
+					"name" : "3.6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LearningC::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LearningC-Debug-46fffe55805099f9eac3.json",
+					"name" : "LearningC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "addition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-addition-Debug-15894eeb1a177f66338d.json",
+					"name" : "addition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arrayaddition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arrayaddition-Debug-7acb7a05cc00e7177caa.json",
+					"name" : "arrayaddition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "avg-3.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-avg-3.2-Debug-77f409378edfafd438c4.json",
+					"name" : "avg-3.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "randomnumgen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-randomnumgen-Debug-d351749b65d3185e2540.json",
+					"name" : "randomnumgen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dibyajyotidey/CLionProjects/LearningC/cmake-build-debug",
+		"source" : "/home/dibyajyotidey/CLionProjects/LearningC"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
