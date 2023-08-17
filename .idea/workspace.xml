@@ -24,12 +24,18 @@
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" ENABLED="true" GENERATION_DIR="debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62969aa6-f716-4a54-b369-6c6bdf1b1bb4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/LearningC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.3.c" beforeDir="false" afterPath="$PROJECT_DIR$/3.3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.1.c" beforeDir="false" afterPath="$PROJECT_DIR$/6.1.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,22 +65,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/home/dibyajyotidey/CLionProjects/LearningC/debug",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ File.6.1.c">
+  <component name="RunManager" selected="C/C++ File.5.1.c">
     <configuration name="3.3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="3.3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LearningC" RUN_TARGET_NAME="3.3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -120,14 +131,20 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="3.4.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="3.4.c" CONFIG_NAME="3.4.c">
-      <option name="sourceFile" value="3.4.c" />
+    <configuration name="3.5.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="3.5.c" CONFIG_NAME="3.5.c">
+      <option name="sourceFile" value="3.5.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="5.6.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="5.6.c" CONFIG_NAME="5.6.c">
-      <option name="sourceFile" value="5.6.c" />
+    <configuration name="5.1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="5.1.c" CONFIG_NAME="5.1.c">
+      <option name="sourceFile" value="5.1.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="5.2.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="5.2.c" CONFIG_NAME="5.2.c">
+      <option name="sourceFile" value="5.2.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -144,18 +161,12 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="randomnumgen.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="randomnumgen.c" CONFIG_NAME="randomnumgen.c">
-      <option name="sourceFile" value="randomnumgen.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="C/C++ File.3.4.c" />
-      <item itemvalue="C/C++ File.6.1.c" />
-      <item itemvalue="C/C++ File.randomnumgen.c" />
-      <item itemvalue="C/C++ File.5.6.c" />
+      <item itemvalue="C/C++ File.5.1.c" />
       <item itemvalue="C/C++ File.5.7.c" />
+      <item itemvalue="C/C++ File.3.5.c" />
+      <item itemvalue="C/C++ File.5.2.c" />
+      <item itemvalue="C/C++ File.6.1.c" />
       <item itemvalue="CMake Application.3.3" />
       <item itemvalue="CMake Application.3.4" />
       <item itemvalue="CMake Application.3.5" />
@@ -168,11 +179,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.6.1.c" />
-        <item itemvalue="C/C++ File.randomnumgen.c" />
-        <item itemvalue="C/C++ File.3.4.c" />
+        <item itemvalue="C/C++ File.5.1.c" />
         <item itemvalue="C/C++ File.5.7.c" />
-        <item itemvalue="C/C++ File.5.6.c" />
+        <item itemvalue="C/C++ File.5.2.c" />
+        <item itemvalue="C/C++ File.3.5.c" />
+        <item itemvalue="C/C++ File.6.1.c" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +209,10 @@
       <workItem from="1692153494306" duration="71000" />
       <workItem from="1692154274561" duration="8993000" />
       <workItem from="1692242119331" duration="185000" />
-      <workItem from="1692242316291" duration="551000" />
+      <workItem from="1692242316291" duration="764000" />
+      <workItem from="1692243087833" duration="1343000" />
+      <workItem from="1692244441389" duration="606000" />
+      <workItem from="1692245052950" duration="828000" />
     </task>
     <servers />
   </component>

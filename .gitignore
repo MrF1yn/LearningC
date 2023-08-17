@@ -1,0 +1,13 @@
+*
+!.c
+!/*.c
+!*.c
+!.txt
+!/*.txt
+!*.txt
+!.sh
+!/*.sh
+!*.sh
+!LICENSE
+!debug
+
