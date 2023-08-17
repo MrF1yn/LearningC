@@ -1,30 +1,29 @@
 //
 // Created by dibyajyotidey on 17/8/23.
 //
-//switch-case grade remarks
+//wap to check if a character is vowel or not using switch case.
 
 #include "stdio.h"
 
 void main(){
-    char grade;
-    printf("Enter your Grade: \n");
-    scanf("%c", &grade);
-    switch (grade) {
+    char c;
+    printf("Enter the character: \n");
+    scanf("%c", &c);
+    switch (c) {
         case 'A':
-            printf("Excellent\n");
-            break;
-        case 'B':
-            printf("Well done\n");
-            break;
-        case 'C':
-            printf("You passed\n");
-            break;
-        case 'D':
-            printf("Better try again\n");
+        case 'a':
+        case 'E':
+        case 'e':
+        case 'I':
+        case 'i':
+        case 'O':
+        case 'o':
+        case 'U':
+        case 'u':
+            printf("The entered character is a vowel. \n");
             break;
         default:
-            printf("Invalid Grade\n");
-
+            printf("The entered character is not a vowel. \n");
     }
-    printf("Your Grade is %c", grade);
+
 }
