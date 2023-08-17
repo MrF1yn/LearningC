@@ -1,6 +1,6 @@
 //
 // Created by dibyajyotidey on 17/8/23.
-// wap to find the greater number between 3 numbers.
+// wap to find the greater number between 3 numbers using if statement.
 
 #include <stdio.h>
 
@@ -11,7 +11,8 @@ void main(){
     if(x>y){
         if(x>z){
             printf("%d is the greatest number", x);
-        }else{
+        }
+        if(z>x){
             printf("%d is the greatest number", z);
         }
     }
