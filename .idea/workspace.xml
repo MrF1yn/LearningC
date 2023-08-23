@@ -29,10 +29,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62969aa6-f716-4a54-b369-6c6bdf1b1bb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/6.6.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.intro-switch.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.6.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.7.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.digitsum.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.factorloop.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.gradeif.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.loop.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.5.c" beforeDir="false" afterPath="$PROJECT_DIR$/6.5.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,10 +86,11 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="C/C++ File.6.6.c">
+  <component name="RunManager" selected="C/C++ File.7.4.c">
     <configuration name="3.3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="3.3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LearningC" RUN_TARGET_NAME="3.3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -127,42 +136,44 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="5.1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="5.1.c" CONFIG_NAME="5.1.c">
-      <option name="sourceFile" value="5.1.c" />
+    <configuration name="7.1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="7.1.c" CONFIG_NAME="7.1.c">
+      <option name="sourceFile" value="7.1.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="6.1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="6.1.c" CONFIG_NAME="6.1.c">
-      <option name="sourceFile" value="6.1.c" />
+    <configuration name="7.2.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="7.2.c" CONFIG_NAME="7.2.c">
+      <option name="compilerOptions" value="-lm" />
+      <option name="sourceFile" value="7.2.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="6.4.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="6.4.c" CONFIG_NAME="6.4.c">
-      <option name="sourceFile" value="6.4.c" />
+    <configuration name="7.4.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="7.4.c" CONFIG_NAME="7.4.c">
+      <option name="compilerOptions" value="-lm" />
+      <option name="sourceFile" value="7.4.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="6.5.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="6.5.c" CONFIG_NAME="6.5.c">
-      <option name="sourceFile" value="6.5.c" />
+    <configuration name="7.5.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="7.5.c" CONFIG_NAME="7.5.c">
+      <option name="sourceFile" value="7.5.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="6.6.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="6.6.c" CONFIG_NAME="6.6.c">
-      <option name="sourceFile" value="6.6.c" />
+    <configuration name="7.7.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="7.7.c" CONFIG_NAME="7.7.c">
+      <option name="sourceFile" value="7.7.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ File.6.4.c" />
-      <item itemvalue="C/C++ File.6.5.c" />
-      <item itemvalue="C/C++ File.6.6.c" />
-      <item itemvalue="C/C++ File.5.1.c" />
-      <item itemvalue="C/C++ File.6.1.c" />
+      <item itemvalue="C/C++ File.7.7.c" />
+      <item itemvalue="C/C++ File.7.1.c" />
+      <item itemvalue="C/C++ File.7.2.c" />
+      <item itemvalue="C/C++ File.7.4.c" />
+      <item itemvalue="C/C++ File.7.5.c" />
       <item itemvalue="CMake Application.3.3" />
       <item itemvalue="CMake Application.3.4" />
       <item itemvalue="CMake Application.3.5" />
@@ -175,11 +186,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.6.6.c" />
-        <item itemvalue="C/C++ File.6.5.c" />
-        <item itemvalue="C/C++ File.6.4.c" />
-        <item itemvalue="C/C++ File.6.1.c" />
-        <item itemvalue="C/C++ File.5.1.c" />
+        <item itemvalue="C/C++ File.7.4.c" />
+        <item itemvalue="C/C++ File.7.2.c" />
+        <item itemvalue="C/C++ File.7.7.c" />
+        <item itemvalue="C/C++ File.7.1.c" />
+        <item itemvalue="C/C++ File.7.5.c" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +221,8 @@
       <workItem from="1692244441389" duration="606000" />
       <workItem from="1692245052950" duration="1599000" />
       <workItem from="1692246659505" duration="96000" />
-      <workItem from="1692246762278" duration="2446000" />
+      <workItem from="1692246762278" duration="3305000" />
+      <workItem from="1692758670115" duration="10457000" />
     </task>
     <servers />
   </component>
