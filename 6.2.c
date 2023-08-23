@@ -15,5 +15,7 @@ void main(){
         }else{
             printf("%d is the greatest number", c);
         }
+        return;
     }
+    printf("%d is the greatest number", b);
 }

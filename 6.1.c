@@ -15,5 +15,7 @@ void main(){
         if(z>x){
             printf("%d is the greatest number", z);
         }
+        return;
     }
+    printf("%d is the greatest number", y);
 }
