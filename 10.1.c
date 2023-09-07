@@ -9,7 +9,7 @@ void main(){
 
     printf("Enter the decimal number: \n");
     scanf("%d", &a);
-    while (a>0){
+    while(a>0){
         r = a%2;
         a = a/2;
         b[i++] = r;
