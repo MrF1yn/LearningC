@@ -18,15 +18,24 @@ void main(){
     int s;
     printf("Enter the element to search: \n");
     scanf("%d", &s);
+    printf("Searching for the element...\n");
     for(int i = 0; i<r; i++){
         for(int j = 0; j<c; j++){
             if(s==a[i][j]){
                 //found
-                char* a0 = itoa()
-                printf("%s %s %s");
-                printf("%s %s %s");
-                printf("%s %s %s");
+                printf("Element: %d Found! Showing it along with surrounding elements:\n", s);
+                for(int k = i-1; k<i+2; k++){
+                    for(int l = j-1; l<j+2; l++){
+                            if(k<0 || l<0 || k>=r || l>=c){
+                                printf("  ");
+                                continue;
+                            }
+                            printf("%d ", a[k][l]);
+                    }
+                    printf("\n");
+                }
                 return;
+
             }
         }
     }

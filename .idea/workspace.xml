@@ -84,7 +84,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="C/C++ File.10.1.c">
+  <component name="RunManager" selected="C/C++ File.11.5h.c">
     <configuration name="3.3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="3.3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LearningC" RUN_TARGET_NAME="3.3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -136,12 +136,6 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="11.2.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="11.2.c" CONFIG_NAME="11.2.c">
-      <option name="sourceFile" value="11.2.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="11.3.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="11.3.c" CONFIG_NAME="11.3.c">
       <option name="sourceFile" value="11.3.c" />
       <method v="2">
@@ -160,9 +154,15 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="11.5h.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="11.5h.c" CONFIG_NAME="11.5h.c">
+      <option name="sourceFile" value="11.5h.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="C/C++ File.11.5h.c" />
       <item itemvalue="C/C++ File.10.1.c" />
-      <item itemvalue="C/C++ File.11.2.c" />
       <item itemvalue="C/C++ File.11.3.c" />
       <item itemvalue="C/C++ File.11.4.c" />
       <item itemvalue="C/C++ File.11.5.c" />
@@ -178,11 +178,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.11.5h.c" />
         <item itemvalue="C/C++ File.10.1.c" />
         <item itemvalue="C/C++ File.11.5.c" />
         <item itemvalue="C/C++ File.11.4.c" />
         <item itemvalue="C/C++ File.11.3.c" />
-        <item itemvalue="C/C++ File.11.2.c" />
       </list>
     </recent_temporary>
   </component>
@@ -230,6 +230,11 @@
       <workItem from="1694054632635" duration="9381000" />
       <workItem from="1694409715143" duration="350000" />
       <workItem from="1694410492612" duration="794000" />
+      <workItem from="1694485326079" duration="667000" />
+      <workItem from="1694486009522" duration="137000" />
+      <workItem from="1694493125629" duration="480000" />
+      <workItem from="1694505462954" duration="106000" />
+      <workItem from="1694506806771" duration="865000" />
     </task>
     <servers />
   </component>
