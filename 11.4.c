@@ -16,8 +16,8 @@ void main(){
     }
 
     printf("The transpose of the matrix is: \n");
-    for(int i = 0; i<r; i++){
-        for(int j = 0; j<c; j++){
+    for(int i = 0; i<c; i++){
+        for(int j = 0; j<r; j++){
             printf("%4d", a[j][i]);
         }
         printf("\n");
