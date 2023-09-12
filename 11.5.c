@@ -11,7 +11,10 @@ void main() {
     printf("\nThe row & column of Matrix B :");
     scanf("%d%d", &p, &q);
 
-    if (n == p) {
+    if (n != p) {
+        printf("Multiplication is not possible");
+        return;
+    }
         printf("\nEnter elements of Matrix A:-\n");
         for (i = 0; i < m; i++) {
             for (j = 0; j < n; j++) {
@@ -33,28 +36,11 @@ void main() {
                 }
             }
         }
-        printf("\nMatrix A is\n");
-        for (i = 0; i < m; i++) {
-            for (j = 0; j < n; j++)
-                printf("%d\t", a[i][j]);
-            printf("\n");
-        }
-        printf("\n");
-        printf("\nMatrix B is\n");
-        for (i = 0; i < p; i++) {
-            for (j = 0; j < q; j++)
-                printf("%d\t", b[i][j]);
-            printf("\n");
-        }
-        printf("\n");
-        printf("\nMultiplication Matrix C is\n");
+        printf("\nMultiplied Matrix C is\n");
         for (i = 0; i < m; i++) {
             for (j = 0; j < q; j++)
                 printf("%d\t", c[i][j]);
             printf("\n");
         }
-    }
-    else
-        printf("\nMultiplication is not possible.\n");
 
 }
