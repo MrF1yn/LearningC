@@ -60,12 +60,4 @@ void main(){
             }
             break;
     }
-
-    printf("The elements of the matrix are: \n");
-    for(int i = 0; i<r; i++){
-        for(int j = 0; j<c; j++){
-            printf("%4d", a[i][j]);
-        }
-        printf("\n");
-    }
 }
