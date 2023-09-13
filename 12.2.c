@@ -15,7 +15,7 @@ void main(){
     }
     int c = 0;
     for(int i = 0; i<s; i++){
-        int f = 0;//searching for element i
+        int f = 0;//searching for element a[i]
         for(int j = 0; j<s; j++){
             if(a[i]==b[j]){
                 f=1;//found a[i] in b array
