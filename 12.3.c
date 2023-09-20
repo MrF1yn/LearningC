@@ -23,6 +23,10 @@ void main(){
         }
         b[c++] = a[i];
     }
+    if(c==s){
+        printf("The given element could not be found!");
+        return;
+    }
     printf("The initial array is: \n");
     for(int i = 0; i<s; i++){
         printf("%d ", a[i]);
