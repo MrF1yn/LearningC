@@ -1,0 +1,1 @@
+//searching an element in an array using passing to function
