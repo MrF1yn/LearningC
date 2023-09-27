@@ -2,35 +2,54 @@
 // Created by dibyajyotidey on 27/9/23.
 //
 //wap to find the largest word present in a sentence and print the word and its length.
+//wap to find the largest word present in a sentence and print the word and its length.
 #include "stdio.h"
 #include "string.h"
+#include "stdlib.h"
+char** split_words(char, char*, int*);
 void main(){
     char s[1000];
     printf("Enter the sentence: \n");
-    scanf("%[^\n]%*c", &s);
-    int n = strlen(s);
-    int max = 0;
-    int len = 0;
-    int start = 0;
-    int f = 0;
-    for (int i = 0; i < n; i++){
-        if(f==0){
-        start = i;
-        f = 1;
+    scanf_s("%[^\n]%*c", &s);
+    int num_of_words = 0;
+    char** words = split_words(' ', s, &num_of_words);
+    int max = strlen(words[0]);
+    int idx = 0;
+    for (int i = 0; i < num_of_words; i++){
+        int len = strlen(words[i]);
+        if(len>max){
+            max = len;
+            idx = i;
         }
-        if(s[i]==' '||i==n-1) {
-            if(len>max){
-                max = len;
-                f=0;
+    }
+    printf("The largest word in the sentence is: %s\n", words[idx]);
+    printf("The size of the word is: %d", max);
 
-            }
-            len = 0;
+    for (int i = 0; i < 1000; i++) {
+        free(words[i]);
+    }
+    free(words);
+}
+char** split_words(char delim, char* sen, int *num_of_words){
+    char **s = (char **)malloc(1000 * sizeof(char *));
+    int row;
+    // for each row allocate Cols ints
+    for (row = 0; row < 1000; row++) {
+        s[row] = (char *)malloc(1000 * sizeof(char ));
+    }
+    int n = strlen(sen);
+    int c = 0;
+    for(int i = 0; i<n ; i++){
+        if(sen[i]==delim||i==n-1){
+            if(i==n-1)
+                s[*num_of_words][c++] = sen[i];
+            s[*num_of_words][c++] = '\0';
+            (*num_of_words)++;
+            c = 0;
+
+            continue;
         }
-        else len++;
+        s[*num_of_words][c++] = sen[i];
     }
-    printf("The largest word is: \n");
-    for(int i = start; i<max+start; i++){
-        printf("%c", s[i]);
-    }
-    printf("\nThe length of the largest word is: %d", max);
+    return s;
 }
