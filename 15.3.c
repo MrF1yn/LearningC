@@ -16,7 +16,7 @@ int sum_of_digits(int n){
     while(n>0){
         int r = n%10;
         n = n/10;
-        s = s+r; 
+        s = s+r;
     }
     return s;
 }
