@@ -9,7 +9,7 @@ int str_len(char[]);
 int num_of_vowels(char[]);
 
 void main(){
-    char *s = malloc(1000 * sizeof(char));
+    char s[1000];
     printf("Enter the sentence: \n");
     scanf("%[^\n]s", s);
     printf("The number of words present are: %d\n", num_of_words(s));
