@@ -29,10 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62969aa6-f716-4a54-b369-6c6bdf1b1bb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/16.1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16.2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16.3.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16.4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16.5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16prac1.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +85,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="C/C++ File.16.4.c">
+  <component name="RunManager" selected="C/C++ File.16.5.c">
     <configuration name="3.3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="3.3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LearningC" RUN_TARGET_NAME="3.3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -133,18 +131,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="15.6.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="15.6.c" CONFIG_NAME="15.6.c">
-      <option name="sourceFile" value="15.6.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="16.1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="16.1.c" CONFIG_NAME="16.1.c">
-      <option name="sourceFile" value="16.1.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="16.2.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="16.2.c" CONFIG_NAME="16.2.c">
       <option name="sourceFile" value="16.2.c" />
       <method v="2">
@@ -163,12 +149,24 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="16.5.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="16.5.c" CONFIG_NAME="16.5.c">
+      <option name="sourceFile" value="16.5.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="16prac1.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LearningC" TARGET_NAME="16prac1.c" CONFIG_NAME="16prac1.c">
+      <option name="sourceFile" value="16prac1.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="C/C++ File.16.1.c" />
       <item itemvalue="C/C++ File.16.2.c" />
       <item itemvalue="C/C++ File.16.3.c" />
       <item itemvalue="C/C++ File.16.4.c" />
-      <item itemvalue="C/C++ File.15.6.c" />
+      <item itemvalue="C/C++ File.16.5.c" />
+      <item itemvalue="C/C++ File.16prac1.c" />
       <item itemvalue="CMake Application.3.3" />
       <item itemvalue="CMake Application.3.4" />
       <item itemvalue="CMake Application.3.5" />
@@ -181,11 +179,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.16.5.c" />
+        <item itemvalue="C/C++ File.16prac1.c" />
         <item itemvalue="C/C++ File.16.4.c" />
         <item itemvalue="C/C++ File.16.3.c" />
         <item itemvalue="C/C++ File.16.2.c" />
-        <item itemvalue="C/C++ File.16.1.c" />
-        <item itemvalue="C/C++ File.15.6.c" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +255,7 @@
       <workItem from="1695791499117" duration="1308000" />
       <workItem from="1696319412888" duration="328000" />
       <workItem from="1696320576746" duration="193000" />
-      <workItem from="1696388042051" duration="5580000" />
+      <workItem from="1696388042051" duration="7722000" />
     </task>
     <servers />
   </component>
