@@ -8,7 +8,7 @@ int str_len(char[]);
 void main(){
     char s[1000];
     printf("Enter the sentence: \n");
-    scanf("%[^\n]%*c", &s);
+    scanf("%[^\n]s", s);
     to_uppercase(s);
     printf("The final sentence is: %s\n", s);
 }
