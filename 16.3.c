@@ -9,7 +9,7 @@ void main(){
     char s[1000];
     int start, end;
     printf("Enter the sentence: \n");
-    scanf("%[^\n]%*c", &s);
+    scanf("%[^\n]s", s);
     printf("Enter the start index: ");
     scanf("%d", &start);
     printf("Enter the end index: ");
