@@ -24,7 +24,7 @@ int str_len(char s[]){
 void to_uppercase(char *s){
     int n = str_len(s);
     for(int i = 0; i<n; i++){
-        if(s[i]>='a')
+        if(s[i]>='a'&&s[i]<='z')
             s[i] = s[i]-32;
     }
 }
