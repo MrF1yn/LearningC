@@ -7,7 +7,7 @@
 void main(){
     char s[1000];
     printf("Enter the sentence: \n");
-    scanf("%[^\n]%*c", &s);
+    scanf("%[^\n]s", s);
     printf("The last character of the words are: \n");
     int n = strlen(s);
     for (int i = 0; i < n; i++){
