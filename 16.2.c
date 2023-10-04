@@ -8,9 +8,9 @@ void concat(char*, char*);
 void main(){
     char s1[1000], s2[500];
     printf("Enter String 1: \n");
-    scanf("%[^\n]%*c", &s1);
+    scanf("%[^\n]s", s1);
     printf("Enter String 2: \n");
-    scanf("%[^\n]%*c", &s2);
+    scanf("%[^\n]s", s2);
     concat(s1, s2);
     printf("The concatenated string is: %s", s1);
 
