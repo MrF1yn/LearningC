@@ -8,9 +8,9 @@
 void main(){
     char s[100], s1[100];
     printf("Enter string 1: ");
-    scanf("%[^\n]%*c", s);
+    scanf("%[^\n]s", s);
     printf("Enter string 2: ");
-    scanf("%[^\n]%*c", s1);
+    scanf("%[^\n]s", s1);
     if(strcmp(s, s1)>0){
         printf("String 1 is greater than String 2.\n");
     } else if(strcmp(s, s1)==0){
