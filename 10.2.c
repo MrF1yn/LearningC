@@ -9,7 +9,7 @@
 void main(){
     char s[100], s1[50];
     printf("Enter string 1: ");
-    scanf("%[^\n]%*c", s);
+    scanf("%[^\n]s", s);
     printf("Enter string 2: ");
     scanf("%[^\n]%*c", s1);
     strcat(s,s1);
