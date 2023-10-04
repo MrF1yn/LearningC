@@ -8,7 +8,7 @@ int str_len(char[]);
 void main(){
     char s[1000];
     printf("Enter the sentence: \n");
-    scanf("%[^\n]%*c", &s);
+    scanf("%[^\n]s", s);
     printf("The length of the string is: %d", str_len(s));
 }
 
