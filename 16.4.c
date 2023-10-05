@@ -3,7 +3,6 @@
 //
 //wap to find number of words present, number of characters, number of vowels and number of consonants present in a string.
 #include <stdio.h>
-#include <stdlib.h>
 int num_of_words(char* sen);
 int str_len(char[]);
 int num_of_vowels(char[]);
