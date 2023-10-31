@@ -6,18 +6,21 @@
 #include <stdlib.h>
 char** split_words(char, char*, int*);
 int str_len(char[]);
-int num_of_vowels(char[]);
 
 void main(){
     char s[1000];
     printf("Enter the sentence: \n");
-    scanf("%[^\n]%*c", &s);
+    scanf("%[^\n]%*c", s);
     int num_of_words = 0;
     char** words = split_words(' ', s, &num_of_words);
     printf("The last characters of every word in a sentence is: \n");
     for (int i = 0; i<num_of_words; i++){
         printf("%c ", words[i][str_len(words[i])-1]);
     }
+    for (int i = 0; i < 1000; i++) {
+        free(words[i]);
+    }
+    free(words);
 }
 
 int str_len(char s[]){
@@ -27,6 +30,7 @@ int str_len(char s[]){
     }
     return i;
 }
+
 
 char** split_words(char delim, char* sen, int *num_of_words){
     char **s = (char **)malloc(1000 * sizeof(char *));
