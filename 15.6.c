@@ -10,7 +10,7 @@ char** split_words(char, char*, int*);
 void main(){
     char s[1000];
     printf("Enter the sentence: \n");
-    scanf("%[^\n]%s", s);
+    scanf("%[^\n]s", s);
     int num_of_words = 0;
     char** words = split_words(' ', s, &num_of_words);
     int max = strlen(words[0]);
