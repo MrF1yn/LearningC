@@ -9,6 +9,8 @@ void main(){
     printf("Enter the string: \n");
     scanf("%[^\n]s", s);
     printf("The reverse is: \n");
+    printf("%s", s);
+
     int n = strlen(s);
     for(int i = n-1; i>-1; i--){
         printf("%c", *(s+i));

@@ -9,7 +9,6 @@ void main(){
     printf("Enter the string: \n");
     scanf("%[^\n]s", s);
     int v = 0;
-    int c = 0;
     int *pv = &v;
     int n = strlen(s);
     for(int i = 0; i < n; i++){
