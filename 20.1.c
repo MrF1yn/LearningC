@@ -12,7 +12,7 @@ void main(){
     printf("Enter the elements of the array: ");
     for(int i = 0; i < n; i++){
         scanf("%d", (arr+i));
-    }
+    }u
     int sum = 0;
     for(int i = 0; i < n; i++){
         sum+=*(arr+i);
