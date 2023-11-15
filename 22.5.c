@@ -35,11 +35,11 @@ void main(){
         printf("NAME: %s\n", db[j].name);
         printf("BASE SALARY: %d\n", db[j].base_salary);
         double gross_sal = gross(db[j], da, hr);
-        printf("GROSS SALARY: %f\n\n", gross_sal);
+        printf("GROSS SALARY: %.2f\n\n", gross_sal);
 
         c1 = c1 + gross_sal;
     }
-    printf("The Total Cost to Company for This Year Will be: %f\n", c1);
+    printf("The Total Cost to Company for This Year Will be: Rs.%.2f\n", c1);
     printf("Enter the DA and HR for next year: \n");
     scanf("%d %d", &da, &hr);
     double c2 = 0;
@@ -49,12 +49,12 @@ void main(){
         printf("NAME: %s\n", db[j].name);
         printf("BASE SALARY: %d\n", db[j].base_salary);
         double gross_sal = gross(db[j], da, hr);
-        printf("GROSS SALARY: %f\n\n", gross_sal);
+        printf("GROSS SALARY: %.2f\n\n", gross_sal);
 
         c2 = c2 + gross_sal;
     }
-    printf("The Total Cost to Company for Next Year Will be: Rs.%f\n", c2);
-    printf("The Company will need to spend an additional of Rs.%f Next Year.\n", c2-c1);
+    printf("The Total Cost to Company for Next Year Will be: Rs.%.2f\n", c2);
+    printf("The Company will need to spend an additional of Rs.%.2f Next Year.\n", c2-c1);
 }
 double gross(Employee em, int da, int hr){
     double da1 = da/100.0;
