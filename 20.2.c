@@ -18,6 +18,6 @@ void main(){
         if(*(arr+i)>l)
             l = *(arr+i);
     }
-    printf("The sum of the elements are: %d", l);
+    printf("The largest element in the array is: %d", l);
 
 }
