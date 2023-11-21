@@ -28,8 +28,8 @@ Time sum(Time a, Time b){
     sum.mm = a.mm+b.mm;
     sum.ss = a.ss+b.ss;
     if(sum.ss>=60){
-        sum.mm = sum.mm + sum.ss/1000;
-        sum.ss = sum.ss%1000;
+        sum.mm = sum.mm + sum.ss/60;
+        sum.ss = sum.ss%60;
     }
     if(sum.mm>=60){
         sum.hr = sum.hr + sum.mm/60;
