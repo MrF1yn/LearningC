@@ -31,7 +31,7 @@ void main(){
             high = db[j];
         }
     }
-    printf("Name: %s\n Id: %d\n Age: %d\n Contact: %ld\n Entry Time: %04d\n Exit Time: %4d\n",
+    printf("Name: %s\n Id: %d\n Age: %d\n Contact: %ld\n Entry Time: %04d\n Exit Time: %04d\n",
            high.name, high.id, high.age, high.contact, high.entry_time, high.exit_time);
 
 }
