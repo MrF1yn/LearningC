@@ -51,7 +51,7 @@ Complex diff(Complex c1, Complex c2)
     c4.comp = c1.comp - c2.comp;
     return c4;
 }
-Complex prod(Complex c1, Complex c2)
+Complex mul(Complex c1, Complex c2)
 {
     Complex c5;
     c5.real = c1.real*c2.real - c1.comp*c2.comp;
