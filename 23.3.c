@@ -9,7 +9,7 @@ void main(){
     Days start, end;
     start = TUE;
     end = SAT;
-    printf("%d %d", start, end);
+    printf("%d %d\n", start, end);
     start = 64;
-    printf("%d %d", start, end);
+    printf("%d %d\n", start, end);
 }
