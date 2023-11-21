@@ -2,33 +2,31 @@
 // Created by dibyajyotidey on 15/11/23.
 //
 //wap to add 2 distances having kilometer and meter
-//wap to add 2 times(HH:MM:SS)
-//wap use structure to perform addition, subtraction, multiplication, division on 2 complex number.
 #include <stdio.h>
-typedef struct Complex{
-    int real;
-    int comp;
+typedef struct Distance{
+    int km;
+    int m;
 } Distance;
-Complex sum(Complex, Complex);
+Distance sum(Distance , Distance);
 void main(){
-    Complex d1;
-    Complex d2;
+    Distance d1;
+    Distance d2;
     printf("Enter the distance1: \n");
-    scanf("%d %d", &d1.real, &d1.comp);
+    scanf("%d %d", &d1.km, &d1.m);
     printf("Enter the distance1: \n");
-    scanf("%d %d", &d2.real, &d2.comp);
-    Complex res = sum(d1, d2);
-    printf("The total distance is: %d Km %d comp", res.real, res.comp);
+    scanf("%d %d", &d2.km, &d2.m);
+    Distance res = sum(d1, d2);
+    printf("The total distance is: %d Km %d m", res.km, res.m);
 
 
 }
-Complex sum(Complex a, Complex b){
-    Complex sum;
-    sum.real = a.real + b.real;
-    sum.comp = a.comp + b.comp;
-    if(sum.comp >= 1000){
-        sum.real = sum.real + sum.comp / 1000;
-        sum.comp = sum.comp % 1000;
+Distance sum(Distance a, Distance b) {
+    Distance sum;
+    sum.km = a.km + b.km;
+    sum.m = a.m + b.m;
+    if (sum.m >= 1000) {
+        sum.km = sum.km + sum.m / 1000;
+        sum.m = sum.m % 1000;
     }
     return sum;
 }
