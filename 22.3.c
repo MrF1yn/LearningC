@@ -44,7 +44,7 @@ Complex sum(Complex c1, Complex c2)
     c3.comp = c1.comp + c2.comp;
     return c3;
 }
-Complex diff(Complex c1, Complex c2)
+Complex sub(Complex c1, Complex c2)
 {
     Complex c4;
     c4.real = c1.real - c2.real;
