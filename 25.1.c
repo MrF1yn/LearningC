@@ -1,6 +1,7 @@
 //
 // Created by DibyajyotiDey on 11/23/23.
 //
+//wap to read the data from a text file where the file is taken from command line argument.
 #include <stdio.h>
 int main(int argc, char **argv){
     FILE *fp;
