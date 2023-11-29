@@ -8,7 +8,7 @@ void main(){
     char c = fgetc(fp);
     int words = 0;
     while (c!=EOF){
-        if(c==' '||c=='\n')
+        if(c==' '||c=='\n'||c==EOF)
             words++;
         c = fgetc(fp);
     }
